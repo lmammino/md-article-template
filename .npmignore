@@ -61,6 +61,3 @@ typings/
 .next
 
 *.tgz
-
-/assets
-ARTICLE.html

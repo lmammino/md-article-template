@@ -1,0 +1,31 @@
+{
+  "name": "md-article-template",
+  "version": "1.0.0",
+  "description": "A ready-made setup to write articles in Markdown and be able to see live preview and export the article in HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "remark ARTICLE.md",
+    "preview": "vmd ARTICLE.md",
+    "build": "generate-md --layout github --input ARTICLE.md --output . && npm pack",
+    "build:watch": "chokidar \"ARTICLE.md\" -c \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmammino/md-article-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmammino/md-article-template/issues"
+  },
+  "homepage": "https://github.com/lmammino/md-article-template#readme",
+  "devDependencies": {
+    "chokidar-cli": "^2.0.0",
+    "markdown-styles": "^3.1.10",
+    "remark-cli": "^7.0.0",
+    "remark-lint": "^6.0.5",
+    "remark-preset-lint-recommended": "^3.0.3",
+    "vmd": "^1.34.0"
+  }
+}
