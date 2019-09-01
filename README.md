@@ -6,7 +6,7 @@ A ready-made setup to write articles in Markdown and be able to see live preview
 
 You can [create your own GitHub repository from this template](https://help.github.com/en/articles/creating-a-repository-from-a-template) and have all the basic scaffolding under your control.
 
-[**CLICK HERE TO CREATE YOUR REPOSITORY FROM THIS TEMPLATE**](https://github.com/lmammino/md-article-template/generate)
+[![Use this template](https://img.shields.io/badge/GitHub-Use%20this%20template-blue)](https://github.com/lmammino/md-article-template/generate)
 
 Once you created your own repo from this one, clone it locally and run `npm install` to get all the necessary dependencies for testing and building your Markdown article.
 
