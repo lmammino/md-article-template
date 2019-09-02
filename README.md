@@ -27,7 +27,7 @@ With `npm test`, your `ARTICLE.md` will be tested for syntax errors using [`rema
 
 With `npm run preview`, you will open an Electron window that will show a live preview of your `ARTICLE.md` and it will automatically update when you make changes to the source file. This command will be using [`vmd`](https://npm.im/vmd) under the hood.
 
-## Build
+### Build
 
  - `npm run build`
  - `npm run build:watch`
